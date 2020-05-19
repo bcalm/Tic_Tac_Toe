@@ -39,13 +39,13 @@ class Game extends Component {
 
   render() {
     const winner = isWinner(this.state.squares);
-    let status;
+    let status = 'Current player:' + this.state.currentPlayer;
+
     if (this.state.totalMoves === 9) {
       status = 'Game Draw';
-    } else if (winner) {
+    }
+    if (winner) {
       status = 'Winner: ' + winner;
-    } else {
-      status = 'Current player: ' + this.state.currentPlayer;
     }
     return (
       <React.Fragment>

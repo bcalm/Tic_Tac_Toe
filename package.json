@@ -14,8 +14,6 @@
     "serve": "^11.3.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "react-scripts start",
     "start": "serve -s build",
     "build": "react-scripts build",
@@ -38,5 +36,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://bcalm.github.io/ttt"
+  "homepage": "http://bcalm.github.io/ttt",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }

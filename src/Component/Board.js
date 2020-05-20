@@ -10,7 +10,7 @@ class Board extends Component {
   render() {
     return (
       <React.Fragment>
-        <h2> {this.props.status}</h2>
+        <h2 id="status"> {this.props.status}</h2>
         <div className="board">
           {this.renderSquare(0)}
           {this.renderSquare(1)}

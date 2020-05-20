@@ -10,3 +10,7 @@
   flex-wrap: wrap;
   height: 18vw;
 }
+
+#status {
+  text-align: center;
+}

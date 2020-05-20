@@ -17,3 +17,18 @@ button {
   height: 3vw;
   font-size: 1.5vw;
 }
+
+input {
+  margin: 0vw 2vw 0vw 2vw;
+  height: 2vw;
+  font-size: 1.5vw;
+}
+
+label {
+  margin: 1.5vw 0vw 0vw 2vw;
+  font-size: 1.5vw;
+}
+
+.submit {
+  margin-top: 0vw;
+}
